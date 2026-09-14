@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matematika Diskrit - Ilmu</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f5f7ff;
+        color: #182033;
+      }
+      .navbar {
+        background: linear-gradient(135deg, #182033, #203864);
+        color: white;
+        padding: 16px 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+      .logo {
+        width: 42px;
+        height: 42px;
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+        font-size: 24px;
+        background: rgba(255, 255, 255, 0.12);
+      }
+      .brand h1,
+      .brand p {
+        margin: 0;
+      }
+      .brand p {
+        font-size: 12px;
+        opacity: 0.8;
+      }
+      nav {
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+      }
+      nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+      }
+      main {
+        padding: 40px 20px;
+      }
+      .section {
+        max-width: 1100px;
+        margin: 0 auto 32px;
+        background: white;
+        border-radius: 16px;
+        box-shadow: 0 8px 24px rgba(24, 32, 51, 0.08);
+        padding: 32px;
+      }
+      .section-title {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        margin-bottom: 24px;
+      }
+      .section-title span {
+        background: #e8ecff;
+        color: #2347b2;
+        font-weight: 700;
+        border-radius: 10px;
+        padding: 8px 12px;
+      }
+      .content-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 20px;
+      }
+      .card {
+        background: #f8f9ff;
+        border: 1px solid #e6ebff;
+        border-radius: 14px;
+        padding: 20px;
+      }
+      .card h3 {
+        margin-top: 0;
+        color: #1f2d52;
+      }
+      .card p {
+        line-height: 1.7;
+      }
+      footer {
+        text-align: center;
+        padding: 24px 20px 40px;
+        color: #4d5873;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="brand">
+        <span class="logo">∑</span>
+        <div>
+          <h1>MathTree</h1>
+          <p>Matematika Diskrit</p>
+        </div>
+      </div>
+
+      <nav>
+        <a href="#beranda">Beranda</a>
+        <a href="#materi">Materi</a>
+        <a href="#ilmu">Ilmu</a>
+        <a href="#kuis">Kuis</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="ilmu" class="section">
+        <div class="section-title">
+          <span>05</span>
+          <h2>Ilmu Menarik tentang Pohon</h2>
+        </div>
+
+        <div class="content-grid">
+          <article class="card">
+            <h3>Funfact 1</h3>
+            <p>
+              Pohon berakar mirip dengan struktur folder di komputer: setiap
+              folder memiliki induk, kecuali folder utama yang menjadi akar dari
+              seluruh isi.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Funfact 2</h3>
+            <p>
+              Pohon adalah salah satu struktur data paling penting dalam ilmu
+              komputer, digunakan untuk pencarian, pengurutan, dan representasi
+              hierarki data.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Funfact 3</h3>
+            <p>
+              Dalam pohon, istilah seperti <strong>akar</strong>,
+              <strong>daun</strong>, dan <strong>cabang</strong> sebenarnya
+              terinspirasi dari bentuk pohon di alam, tetapi digunakan untuk
+              menggambarkan hubungan logis antar data.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Website tugas Matematika Diskrit - Materi Pohon Berakar</p>
+    </footer>
+  </body>
+</html>
